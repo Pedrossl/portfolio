@@ -8,11 +8,11 @@ interface SidebarProps {
 }
 
 const menuItems = [
-  { id: "about", label: "About", icon: User },
-  { id: "skills", label: "Skills", icon: Wrench },
+  { id: "about", label: "Sobre", icon: User },
+  { id: "skills", label: "Habilidades", icon: Wrench },
   // { id: 'projects', label: 'Projects', icon: FolderGit2 },
-  { id: "experience", label: "Experience", icon: Briefcase },
-  { id: "contact", label: "Contact", icon: Mail },
+  { id: "experience", label: "Experiência", icon: Briefcase },
+  { id: "contact", label: "Contato", icon: Mail },
 ];
 
 export default function Sidebar({

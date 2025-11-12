@@ -1,13 +1,6 @@
 "use client";
 
-import {
-  Cloud,
-  Code2,
-  Database,
-  GitBranch,
-  GraduationCap,
-  Server,
-} from "lucide-react";
+import { Cloud, Code2, Database, GraduationCap, Server } from "lucide-react";
 
 const skillCategories = [
   {
@@ -35,10 +28,10 @@ const skillCategories = [
     skills: ["Docker", "GitHub Actions", "APIs Externas", "Webhooks"],
   },
   {
-    title: "Boas Práticas & Arquitetura",
-    icon: GitBranch,
+    title: "Qualidade de Código",
+    icon: Code2,
     color: "#a855f7",
-    skills: ["Clean Architecture", "DDD", "SOLID", "Design Patterns"],
+    skills: ["Testes Unitários", "Clean Code", "Testes e2e", "Documentação"],
   },
   {
     title: "Educação & Mentoria",
@@ -48,7 +41,7 @@ const skillCategories = [
       "Orientação Educacional",
       "Lógica & OOP",
       "HTML/CSS/JS",
-      "Formação de Novos Devs",
+      "FullStack",
     ],
   },
 ];
