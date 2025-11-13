@@ -6,7 +6,7 @@ const experiences = [
   {
     title: "Back End Developer",
     company: "PriceKeeper",
-    location: "Pelotas, RS · Remoto",
+    location: "Pelotas, RS · Híbrido",
     period: "jan de 2025 - o momento",
     color: "#00f5ff",
     achievements: [
