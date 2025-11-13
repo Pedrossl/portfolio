@@ -1,6 +1,15 @@
 "use client";
 
-import { Code2, Database, GraduationCap, Server, Terminal } from "lucide-react";
+import { Database, GraduationCap, Server, Terminal } from "lucide-react";
+import Image from "next/image";
+
+// Use uma URL externa se definida em NEXT_PUBLIC_AVATAR_URL, caso contrário usa o link fornecido ou a imagem local
+const AVATAR_SRC =
+  process.env.NEXT_PUBLIC_AVATAR_URL ||
+  "https://media.licdn.com/dms/image/v2/D4D03AQG6iVnOb4bbEQ/profile-displayphoto-scale_200_200/B4DZlNJg2QJEAg-/0/1757935964205?e=1764806400&v=beta&t=CzE2oyBeBkQNYlq8nmj9-ti458D0VZLTOJU2f7fui8o" ||
+  "/images/avatar.jpg";
+const isExternal =
+  AVATAR_SRC.startsWith("http://") || AVATAR_SRC.startsWith("https://");
 
 export default function AboutSection() {
   return (
@@ -22,8 +31,15 @@ export default function AboutSection() {
             <div className="flex items-start gap-6">
               <div className="relative">
                 <div className="w-32 h-32 rounded-lg bg-gradient-to-br from-[#00f5ff] to-[#00ff9f] p-1">
-                  <div className="w-full h-full bg-[#16213e] rounded-lg flex items-center justify-center">
-                    <Code2 className="w-16 h-16 text-[#00f5ff]" />
+                  <div className="w-full h-full bg-[#16213e] rounded-lg flex items-center justify-center overflow-hidden">
+                    <Image
+                      src={AVATAR_SRC}
+                      alt="Foto de perfil"
+                      width={128}
+                      height={128}
+                      className="rounded-lg object-cover"
+                      unoptimized={isExternal}
+                    />
                   </div>
                 </div>
                 <div className="absolute -inset-2 bg-gradient-to-br from-[#00f5ff] to-[#00ff9f] rounded-lg blur-xl opacity-20 -z-10"></div>
