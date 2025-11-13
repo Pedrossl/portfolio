@@ -29,9 +29,9 @@ export default function Sidebar({
           </div>
           <div>
             <h1 className="text-xl font-bold text-white tracking-tight">
-              DevPortfolio
+              LobatoDev
             </h1>
-            <p className="text-xs text-[#00f5ff] font-mono">v1.0.0</p>
+            <p className="text-xs text-[#00f5ff] font-mono">v1.0.1</p>
           </div>
         </div>
       </div>
