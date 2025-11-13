@@ -17,19 +17,6 @@ const experiences = [
     ],
   },
   {
-    title: "Back End Developer",
-    company: "Brainny Smart Solutions",
-    location: "Pelotas, RS · Remoto",
-    period: "set de 2023 - jan de 2025",
-    color: "#00ff9f",
-    achievements: [
-      "Criação de serviços backend com NestJS e GraphQL para múltiplos produtos.",
-      "Integrações com APIs externas e manutenção de pipelines de sincronização de dados.",
-      "Refatoração de fluxos críticos para melhoria de performance e legibilidade do código.",
-      "Participação ativa no planejamento técnico e revisão de código em equipe.",
-    ],
-  },
-  {
     title: "Orientador Educacional",
     company: "Centro Universitário Senac",
     location: "Pelotas, RS · Híbrido",
@@ -40,6 +27,19 @@ const experiences = [
       "Ministração de aulas práticas no programa Juventude Digital, com foco em HTML, CSS e introdução ao desenvolvimento web.",
       "Criação de materiais de apoio e atividades para reforço do aprendizado técnico.",
       "Mentoria e orientação profissional para estudantes iniciantes na área de TI.",
+    ],
+  },
+  {
+    title: "Back End Developer",
+    company: "Brainny Smart Solutions",
+    location: "Pelotas, RS · Remoto",
+    period: "set de 2023 - jan de 2025",
+    color: "#00ff9f",
+    achievements: [
+      "Criação de serviços backend com NestJS e GraphQL para múltiplos produtos.",
+      "Integrações com APIs externas e manutenção de pipelines de sincronização de dados.",
+      "Refatoração de fluxos críticos para melhoria de performance e legibilidade do código.",
+      "Participação ativa no planejamento técnico e revisão de código em equipe.",
     ],
   },
   {
