@@ -25,13 +25,9 @@ export default function ContactSection() {
                 <h3 className="text-lg font-semibold text-white mb-4">
                   Contato Direto
                 </h3>
-                <a
-                  href="mailto:seuemail@exemplo.com"
-                  className="flex items-center gap-3 text-gray-300 hover:text-[#00f5ff] transition-colors"
-                >
-                  <Mail className="w-5 h-5" />
-                  <span>pedrosslobato@gmail.com</span>
-                </a>
+
+                <Mail className="w-5 h-5" />
+                <span>pedrosslobato@gmail.com</span>
               </div>
 
               <div className="flex-1 bg-[#0f1729] border border-[#2d3561] rounded-lg p-6">

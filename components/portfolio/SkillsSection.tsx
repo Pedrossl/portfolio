@@ -31,7 +31,7 @@ const skillCategories = [
     title: "Qualidade de Código",
     icon: Code2,
     color: "#a855f7",
-    skills: ["Testes Unitários", "Clean Code", "Testes e2e", "Documentação"],
+    skills: ["Testes Unitários", "Clean Code", "Testes e2e", "Filas"],
   },
   {
     title: "Educação & Mentoria",
